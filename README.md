@@ -1,2 +1,2 @@
 # stripeSwiftUI
-<h3>Jonny & Albert -Imaginary Sunglasses Online Shop</h3>
+<h3>Johnny & Albert -Imaginary Sunglasses Online Shop</h3>
