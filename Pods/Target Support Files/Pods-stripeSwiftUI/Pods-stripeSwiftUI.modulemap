@@ -1,0 +1,6 @@
+framework module Pods_stripeSwiftUI {
+  umbrella header "Pods-stripeSwiftUI-umbrella.h"
+
+  export *
+  module * { export * }
+}
