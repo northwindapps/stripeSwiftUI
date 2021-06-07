@@ -16,7 +16,7 @@ class MyBackendModel: ObservableObject {
     @Published var paymentIntentClientSecret: String?
     @Published var failedInPaymentSheet: Bool?
     init() {
-        STPAPIClient.shared.publishableKey = "pk_test_YOUR_PRIVATE_API_TEST_KEY"
+        STPAPIClient.shared.publishableKey = "Test_Private_Key"
     }
     
     func preparePaymentSheet(customerId:String,productAry:[String],priceAry:[String],quantityAry:[Int],name:String,phone:String,email:String,zipcode:String,country:String,city:String,line1:String,line2:String) {

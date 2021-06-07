@@ -10,7 +10,7 @@ import Stripe
 
 class AppDelegate:NSObject, UIApplicationDelegate{
     func applicationDidFinishLaunching(_ application: UIApplication,  launchOptions:[UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
-        StripeAPI.defaultPublishableKey = "sk_test_51GqE6AJri2UpFjVbvjVvivnsCf2alGTBungm9O3EATMRCpWoqvhnVokNEzukZ5tISRHVK6poN9HjfSbFuqDYCkqD00rWfcQqOF"
+        StripeAPI.defaultPublishableKey = "Test_Private_Key"
         return true
     }
 }
